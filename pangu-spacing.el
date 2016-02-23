@@ -313,6 +313,24 @@ pangu-sapce-mode."
 (define-globalized-minor-mode global-pangu-spacing-mode
   pangu-spacing-mode pangu-spacing-mode)
 
+;;;; TODO: move to pangu.el ?
+
 
-(provide 'pangu-spacing)
+(defun pangu-spacing (str)
+  "Performs a paranoid text spacing on str."
+  )
+
+(defun pangu-spacing--quote (str)
+  )
+(defun pangu-spacing--hash (str)
+  )
+(defun pangu-spacing--operator (str)
+  )
+(defun pangu-spacing--brackets (str)
+  )
+(defun pangu-spacing--symbol (str)
+  )
+(defun pangu-spacing--ans (str)
+  )
+
 ;;; pangu-spacing.el ends here
