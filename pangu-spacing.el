@@ -333,4 +333,5 @@ pangu-sapce-mode."
 (defun pangu-spacing--ans (str)
   )
 
+(provide 'pangu-spacing)
 ;;; pangu-spacing.el ends here
